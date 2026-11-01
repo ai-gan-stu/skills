@@ -1,0 +1,10 @@
+[
+  {
+    "query": "描述一个应该触发本 skill 的用户请求（改成真实说法）",
+    "should_trigger": true
+  },
+  {
+    "query": "描述一个看起来相关但不该触发本 skill 的请求",
+    "should_trigger": false
+  }
+]

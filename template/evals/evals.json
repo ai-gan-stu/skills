@@ -1,0 +1,14 @@
+{
+  "skill_name": "example-skill",
+  "evals": [
+    {
+      "id": "E1",
+      "prompt": "用一句话描述这个 skill 应该完成的典型任务（改成真实场景）",
+      "expectations": [
+        "按 SKILL.md 的工作流程执行，不跳过关键步骤",
+        "输出满足该场景下可验收的结果"
+      ],
+      "files": []
+    }
+  ]
+}

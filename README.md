@@ -1,4 +1,4 @@
-﻿# Skills
+# Skills
 
 个人 / 团队可复用的 skill 仓库。每个 skill 是一个目录，核心文件是 `SKILL.md`。
 
@@ -14,7 +14,8 @@ skills/                 ← 本仓库根目录
 │       ├── CHANGELOG.md
 │       ├── scripts/
 │       ├── references/
-│       └── assets/
+│       ├── assets/
+│       └── evals/      ← 可选：测试用例
 ├── template/           ← 新建 skill 时复制
 │   └── SKILL.md
 └── .gitignore
@@ -24,7 +25,7 @@ skills/                 ← 本仓库根目录
 
 1. 复制 `template/` 到 `skills/<skill-name>/`
 2. 编辑 `SKILL.md` 的 frontmatter（`name`、`description`）和正文步骤
-3. 按需补上 `scripts/`、`references/`、`assets/` 与 `CHANGELOG.md`
+3. 按需保留或删除 `scripts/`、`references/`、`assets/`、`evals/`，并更新 `CHANGELOG.md`
 4. 提交并推送
 
 `description` 写清**何时**使用该 skill，方便人和助手判断要不要加载它。
