@@ -1,0 +1,24 @@
+﻿# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node / Python local junk (if scripts use them)
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+*.log
