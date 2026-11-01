@@ -1,21 +1,17 @@
 ---
 name: example-skill
-description: 一句话说明何时使用这个 skill（必填；读者靠它决定要不要加载）
+description: 一句话说明这个 skill 做什么，以及什么时候应该触发它。包含具体触发词。
 ---
 
 # Example skill
 
-把可复用步骤写在这里。保持通用：具体仓库名、频道、账号等放到调用方，不要写进模板。
+skill概述
 
-## 工作流程
+## 步骤
 
-1. 第一步做什么
-2. 第二步做什么
+1. …
+2. …
 3. …
 
-## 可选目录
-
-- `scripts/` — 辅助脚本
-- `references/` — 较长参考资料
-- `assets/` — 图片或其他静态资源
-- `evals/` — 可选测试用例（模板内含 `evals.json`、`triggers.json`、`files/`）
+## 注意事项
+- 关键规则写在这里

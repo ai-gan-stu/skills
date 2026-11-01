@@ -12,10 +12,10 @@ skills/                 ← 本仓库根目录
 │   └── <skill-name>/
 │       ├── SKILL.md    ← 必需
 │       ├── CHANGELOG.md
-│       ├── scripts/
-│       ├── references/
-│       ├── assets/
-│       └── evals/      ← 可选：测试用例
+│       ├── scripts/	← 可执行脚本（可选）
+│       ├── references/	← 较长说明（可选）
+│       ├── assets/		← 图片等静态资源（可选）
+│       └── evals/      ← 测试用例（可选）
 ├── template/           ← 新建 skill 时复制
 │   └── SKILL.md
 └── .gitignore
